@@ -1,0 +1,13 @@
+test_a:
+  value: 'a'
+
+test_b:
+  $extends: 'test_a'
+  value: 'b'
+
+test_c:
+  $extends: 'test_b'
+  value: 'c'
+
+test_d:
+  $extends: 'test_c'

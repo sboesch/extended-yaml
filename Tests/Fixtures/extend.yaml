@@ -1,0 +1,27 @@
+user_types:
+  user:
+    roles: [ 'ROLE_USER' ]
+  admin:
+    roles: [ 'ROLE_USER', 'ROLE_ADMIN' ]
+
+users:
+  admin:
+    $extends: 'user_types.admin'
+    name: 'admin'
+  user:
+    $extends: 'user_types.user'
+    name: 'user'
+
+extended_users:
+  admin:
+    $extends: 'users.admin'
+  user:
+    $extends: 'users.user'
+
+nested_users:
+  level_1:
+    $extends: 'users.admin'
+    level_2:
+      $extends: 'users.user'
+      level_3:
+        $extends: 'users.user'

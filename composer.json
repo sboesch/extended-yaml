@@ -1,0 +1,24 @@
+{
+    "name": "sboesch/extended-yaml",
+    "type": "library",
+    "description": "A parsing library for extended YAML.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sidney Bösch",
+            "email": "sidney@ions.at"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^3.4.26"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": { "Sboesch\\ExtendedYaml\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}

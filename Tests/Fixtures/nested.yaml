@@ -1,0 +1,29 @@
+nested_1:
+  key: 'test'
+
+nested_2:
+  $extends: 'nested_1'
+
+nested_3:
+  $extends: 'nested_2'
+
+nested_4:
+  $extends: 'nested_3'
+
+nested_5:
+  $extends: 'nested_4'
+
+nested_6:
+  $extends: 'nested_5'
+
+nested_7:
+  $extends: 'nested_6'
+
+nested_8:
+  $extends: 'nested_7'
+
+nested_9:
+  $extends: 'nested_8'
+
+nested_10:
+  $extends: 'nested_9'

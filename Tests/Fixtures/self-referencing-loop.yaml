@@ -1,0 +1,3 @@
+# Extending itself will end in an infinite loop
+source:
+  $extends: 'source'
