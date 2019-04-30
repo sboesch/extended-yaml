@@ -2,7 +2,13 @@
 
 Extended Yaml is a subset of Yaml, providing support for the magic `$extends` property.
 
+## Installation
+
+    composer require sboesch/extended-yaml
+
 ## Example
+
+### Input
 
 ```yaml
 user_types:
@@ -23,7 +29,7 @@ users:
 
 ```
 
-### Result
+### Output
 
 ```yaml
 user_types:
